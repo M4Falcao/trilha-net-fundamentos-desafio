@@ -45,7 +45,7 @@ namespace DesafioFundamentos.Models
                         Console.WriteLine("Valor invalido, tente novamente");
                     }
                 }
-                decimal valorTotal = precoInicial + precoPorHora * horas;
+                decimal valorTotal = this.precoInicial + this.precoPorHora * horas;
 
                 // TODO: Remover a placa digitada da lista de veículos
                 // *IMPLEMENTE AQUI*
